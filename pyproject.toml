@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pip-gonzo"
+version = "0.1.0"
+description = ""
+authors = ["Im-Gonzo <gonzaloalcala0304@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+yaspin = "^3.0.0"
+tabulate = "^0.9.0"
+pyfiglet = "^0.8.post1"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
